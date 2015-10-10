@@ -19,11 +19,10 @@
 
 ## graphic
 title <- "Global Active Power"
-color <- "red"
-background <- "transparent"
 label.x <- "Global Active Power (kilowatts)"
 label.y <- "Frequency"
-values <- df$Global_active_power
+columnColor <- "red"
+background <- "transparent"
 margins <- c(5.1, 4.1, 4.1, 2.1)
 
 ## file
@@ -33,18 +32,17 @@ width <- 480
 height <- 480
 
 ########################################
-# Get the data
+# Data
 ########################################
 source("common.R")
-df <- getData()
+x <- getData()$Global_active_power
 
 ########################################
-# Plot
+# Draw
 ########################################
-hist(x = values, main = title, xlab = label.x, ylab = label.y, col = color)
+hist(x = x, main = title, xlab = label.x, ylab = label.y, 
+     bg = background, col = columnColor)
 par(mar = margins)
-par(bg = background)
-
 
 ########################################
 # Save
