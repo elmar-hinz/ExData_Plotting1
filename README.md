@@ -20,7 +20,7 @@ Learning Repository</a>, a popular repository for machine learning
 datasets. In particular, we will be using the "Individual household
 electric power consumption Data Set".
 
-## Reviews checklist
+## Reviewers Checklist
 
 You find four plot rendering R scripts and four PNG files of width 480 * 480
 pixel. It is required to this scripts read the data. As this is the same for
