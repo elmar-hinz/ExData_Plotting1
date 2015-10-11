@@ -22,25 +22,25 @@ electric power consumption Data Set".
 
 ## Reviews checklist
 
-You find four R scripts and four PNG files of width 480 * 480 pixel.
-
-It is required to this scripts read the data. As this is the same for
+You find four plot rendering R scripts and four PNG files of width 480 * 480
+pixel. It is required to this scripts read the data. As this is the same for
 all of the four scripts I source a script called `common.R` to do this.
-
-### R scripts
 
 * [common.R](common.R)
 * [plot1.R](plot1.R)
 * [plot2.R](plot2.R)
 * [plot3.R](plot3.R)
 * [plot4.R](plot4.R)
-
-### Plots
-
-The four Plots below are the results produced by my script.
-
 * [plot 1](plot1.png)
 * [plot 2](plot2.png)
 * [plot 3](plot3.png)
 * [plot 4](plot4.png)
+
+The four Plots below are the results produced by my script.
+
+![plot 1](plot1.png)
+![plot 2](plot2.png)
+![plot 3](plot3.png)
+![plot 4](plot4.png)
+
 
