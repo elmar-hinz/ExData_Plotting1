@@ -42,7 +42,7 @@ getData <- function() {
   df <- cbind(as.POSIXct(paste(df$Date, df$Time), format="%d/%m/%Y %H:%M:%S"), df)
   names(df)[1] <- "DateTime"
   df <- df[,-(2:3)]
-  View(df)
+#  View(df)
   df
 }
 

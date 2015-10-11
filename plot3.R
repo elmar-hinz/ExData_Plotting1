@@ -10,7 +10,7 @@
 ##############################################################################
 
 ##############################################################################
-# Submetering Line Diagram (plot 3)
+# Submetering Line Plot (plot 3)
 ##############################################################################
 
 ########################################
@@ -25,7 +25,6 @@ label.y <- "Energy sub metering"
 legend.text <- c("Sub_metering_1",  "Sub_metering_2", "Sub_metering_3")
 legend.position <- "topright"
 colors <- c("black", "red", "blue")
-margins <- c(5.1, 4.1, 4.1, 2.1)
 
 ## file
 outfile <- "plot3.png"
@@ -49,10 +48,10 @@ y3 <- df$Sub_metering_3
 ########################################
 
 png(filename = outfile, bg = background, width = width, height = height)
-plot(type = "n", x = x, y = y1, main = title, xlab = label.x,  ylab = label.y, bg = background)
+plot(type = "n", x = x, y = y1, main = title, xlab = label.x, ylab = label.y, 
+     bg = background)
 lines(type = type, x = x, y = y1, col = colors[1])
 lines(type = type, x = x, y = y2, col = colors[2])
 lines(type = type, x = x, y = y3, col = colors[3])
 legend(legend.position, legend = legend.text, lty = 1, col = colors)
 dev.off()
-
