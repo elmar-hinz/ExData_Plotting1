@@ -3,7 +3,7 @@
 * Title: Course Project
 * Copyright (c): 2015 Elmar Hinz
 * Code license: **MIT**, see LICENSE.txt
-* Coursera ID: getdata-032
+* Coursera ID: exdata-033
 * Project URL: https://class.coursera.org/getdata-032/human_grading
 * Dataset: [Electric power consumption](
   https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip)
