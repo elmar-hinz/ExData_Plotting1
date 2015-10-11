@@ -36,11 +36,18 @@ all of the four scripts I source a script called `common.R` to do this.
 * [plot 3](plot3.png)
 * [plot 4](plot4.png)
 
+Only two days of the original data are to display. This reduces the required
+data from 127M to 179K. I did this by using of the command line tool `grep` and
+stored the reduced data into `data/focus.txt`. Only this data was uploaded to
+github.
+
+`grep --regex="^Date" --regex="^[12]/2/2007;"
+    data/household_power_consumption.txt > data/focus.txt`
+
 The four Plots below are the results produced by my script.
 
 ![plot 1](plot1.png)
 ![plot 2](plot2.png)
 ![plot 3](plot3.png)
 ![plot 4](plot4.png)
-
 
